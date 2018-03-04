@@ -8,9 +8,9 @@ int main(void) {
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<k;i++)
+	for(j=0;j<k;j++)
 	{
-		sum=sum+a[i];
+		sum=sum+a[j];
 	}
 	printf("%d",sum);
 	return 0;
