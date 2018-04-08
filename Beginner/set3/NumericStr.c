@@ -3,12 +3,12 @@
 int main() 
 {
     char a[10];
-    int flag=0,i;
-    scanf("%s",a);
-    int n=strlen(a);
-    for(i=0;i<n;i++)
+    int flag=0;
+    scanf("%s",x);
+    int n=strlen(x);
+    for(int i=0;i<n;i++)
     {
-        if(a[i]>='0'&&a[i]<='9')
+        if(x[i]>='0'&&x[i]<='9')
         {
             flag=0;
         }
