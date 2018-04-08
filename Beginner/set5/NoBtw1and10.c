@@ -5,10 +5,10 @@ int main(void) {
 	int i;
 	scanf("%d",&i);
 	if(i>=1 && i<=10) {
-		printf("Yes"); 
+		printf("yes"); 
 	}
 	else
-		printf("No");
+		printf("no");
 		
 	return 0;
 }
