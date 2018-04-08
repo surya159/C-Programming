@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+ 
 int main(void) {
 	// your code goes here
 	char str[20];
@@ -9,12 +9,12 @@ int main(void) {
 	n=strlen(str);
 	for(int i=0;i<n;i++)
 	{
-	 if(str[i]>='a'&& str[i]<='z'|| str[i]>='A'&& str[i]<='Z')
+	 if(!(str[i] == ' '))
 	 {
 	     count++;
 	 }
 	}
 	printf("%d",count);
-	
+ 
 	return 0;
 }
