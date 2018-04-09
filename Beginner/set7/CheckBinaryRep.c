@@ -20,10 +20,10 @@ int main()
    
    }
    if(k==1) {
-   	printf("Yes");
+   	printf("yes");
    }
    else
-	printf("No");
+	printf("no");
    
    return 0;
 }
