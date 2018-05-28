@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-	float Tc,Tk;
-	scanf("%f",&Tc);
-	Tk=Tc+273.15;
-	printf("%.2f ",Tk);
+	int Tc,Tk;
+	scanf("%d",&Tc);
+	Tk=Tc+273;
+	printf("%d ",Tk);
 	
 	return 0;
 }
