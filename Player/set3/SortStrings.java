@@ -1,5 +1,5 @@
 import java.util.*;
-public class SortStrings {
+public class StringSortnew {
     public static void main(String[] args) 
     {
         Scanner s = new Scanner(System.in);
@@ -24,7 +24,18 @@ public class SortStrings {
         }
         for (int i = 0; i < n; i++) 
         {
-            System.out.print(names[i] + " " );
+            for (int j = i + 1; j < n; j++) 
+            {
+                if (names[i].length() > names[j].length()) {
+                    String temp = names[i];
+                    names[i] = names[j];
+                    names[j] = temp;
+                }
+            }
+        }
+        for (int i = 0; i < n; i++) 
+        {
+            System.out.println(names[i] + " ");
         }
         
     }
