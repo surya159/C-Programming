@@ -61,8 +61,8 @@ int main()
     char expr[20];
     cin >> setw(20) >> expr;
     if(areParanthesisBalanced(expr))
-        cout<<"Balanced";
+        cout<<"yes";
     else
-        cout<<"Not Balanced";
+        cout<<"no";
     return 0;
 }
